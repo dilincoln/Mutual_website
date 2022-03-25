@@ -1775,3 +1775,16 @@ header {
 		transform: scale(0);
 	}
 }
+
+.d-flex {
+	display: flex;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.mx-3 {
+	margin-right: 1rem;
+	margin-left: 1rem;
+}

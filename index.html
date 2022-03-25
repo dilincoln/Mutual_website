@@ -41,8 +41,6 @@
 		<![endif]-->
 		<meta name="lomadee-verification" content="22672293" />
 	</head>
-	<meta name="lomadee-verification" content="22672293" />
-
 	<body>
 		<!-- Header -->
 		<header id="home">
@@ -58,7 +56,7 @@
 					<div class="navbar-header">
 						<!-- Logo -->
 						<div class="navbar-brand">
-							<a href="#">
+							<a href="#home">
 								<img class="logo" src="img/logo.png" alt="logo" />
 								<img class="logo-alt" src="img/logo-alt.png" alt="logo" />
 							</a>
@@ -105,15 +103,12 @@
 									A Mutual trabalha com o melhor da tecnologia para trazer soluções para sua
 									empresa.
 								</p>
-								<!-- Solução para bug dos botões não-suaves -->
-								<script>
-									const contact = document.querySelector('a[href="#contact"]')
-									const service = document.querySelector('a[href="#service"]')
-								</script>
-								<button class="white-btn" onclick="javascript:contact.click()">Contato</button>
-								<button class="main-btn" onclick="javascript:service.click()">
-									O que fazemos?
-								</button>
+								<a href="#contact">
+									<span class="white-btn">Contato</span>
+								</a>
+								<a href="#service">
+									<span class="main-btn">O que fazemos?</span>
+								</a>
 							</div>
 						</div>
 						<!-- /home content -->
@@ -690,7 +685,7 @@
 							<!-- testimonial -->
 							<div class="testimonial">
 								<div class="testimonial-meta">
-									<img src="./img/customer9.png" alt="" />
+									<img src="./img/customer9.png" alt="ACRI" />
 								</div>
 							</div>
 							<!-- /testimonial -->
@@ -698,7 +693,7 @@
 							<!-- testimonial -->
 							<div class="testimonial">
 								<div class="testimonial-meta">
-									<img src="./img/customer10.png" alt="" />
+									<img src="./img/customer10.png" alt="Plural Empreendimentos" />
 								</div>
 							</div>
 							<!-- /testimonial -->
@@ -706,7 +701,7 @@
 							<!-- testimonial -->
 							<div class="testimonial">
 								<div class="testimonial-meta">
-									<img src="./img/customer11.png" alt="" />
+									<img src="./img/customer12.png" alt="Plural Box" />
 								</div>
 							</div>
 							<!-- /testimonial -->
@@ -714,21 +709,13 @@
 							<!-- testimonial -->
 							<div class="testimonial">
 								<div class="testimonial-meta">
-									<img src="./img/customer12.png" alt="" />
-								</div>
-							</div>
-							<!-- /testimonial -->
-
-							<!-- testimonial -->
-							<div class="testimonial">
-								<div class="testimonial-meta">
-									<img src="./img/customer13.png" alt="" />
+									<img src="./img/customer13.png" alt="Plural Mídias" />
 								</div>
 							</div>
 							<!-- /testimonial -->
 							<div class="testimonial">
 								<div class="testimonial-meta">
-									<img src="./img/customer14.png" alt="" />
+									<img src="./img/customer14.png" alt="iNorte" />
 								</div>
 							</div>
 							<!-- /testimonial -->
@@ -932,30 +919,28 @@
 					<!-- /Section-header -->
 
 					<!-- contact -->
-					<div class="col-sm-4">
-						<div class="contact">
+					<div class="d-flex justify-content-center">
+						<div class="contact mx-3">
 							<i class="fa fa-phone"></i>
 							<h3>Celular</h3>
 							<a href="tel:71993154491">
 								<p>(71) 9 9315-4491</p>
 							</a>
 						</div>
-					</div>
-					<!-- /contact -->
+						<!-- /contact -->
 
-					<!-- contact -->
-					<div class="col-sm-4">
+						<!-- contact -->
+						<!-- <div class="col-sm-4">
 						<div class="contact">
 							<i class="fa"></i>
 							<h3></h3>
 							<p></p>
 						</div>
-					</div>
-					<!-- /contact -->
+					</div> -->
+						<!-- /contact -->
 
-					<!-- contact  -->
-					<div class="col-sm-4">
-						<div class="contact">
+						<!-- contact  -->
+						<div class="contact mx-3">
 							<i class="fa fa-envelope"></i>
 							<h3>E-mail</h3>
 							<a href="mailto:diego@mutualtecnologia.com.br">
@@ -1008,7 +993,9 @@
 									}
 								}
 							</script>
-							<a onclick="javascript:cupom()"><img src="img/logo-alt.png" alt="logo" /></a>
+							<a onclick="cupom()">
+								<img src="img/logo-alt.png" alt="logo" />
+							</a>
 						</div>
 						<!-- /footer logo -->
 
